@@ -1,0 +1,24 @@
+GET http://localhost:3333/alunos
+
+###
+POST http://localhost:3333/alunos
+Content-Type: application/json
+
+{
+    "name": "João",
+    "email": "joao@email.com",
+    "age": 20
+}
+
+###
+PUT http://localhost:3333/alunos/7663f27c-964f-4e09-8272-50b8b3a4d244
+Content-Type: application/json
+
+{
+    "name": "João2",
+    "email": "joao2@email.com",
+    "age": 21
+}
+
+###
+DELETE http://localhost:3333/alunos/7663f27c-964f-4e09-8272-50b8b3a4d244
